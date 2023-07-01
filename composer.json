@@ -1,0 +1,23 @@
+{
+    "name": "coxorange/m2-custom-layout",
+    "description": "Magento 2 Custom Layout extension",
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Coxorange",
+            "role": "Technical Support"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Coxorange\\CustomLayout\\": ""
+        }
+    }
+}

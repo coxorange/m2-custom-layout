@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Products -->
+    <preference for="Magento\Catalog\Model\Product\Attribute\LayoutUpdateManager"
+                type="Coxorange\CustomLayout\Model\Catalog\Product\LayoutUpdateManager"/>
+
+    <!-- Categories -->
+    <preference for="Magento\Catalog\Model\Category\Attribute\LayoutUpdateManager"
+                type="Coxorange\CustomLayout\Model\Catalog\Category\LayoutUpdateManager"/>
+
+    <!-- CMS Pages -->
+    <preference for="Magento\Cms\Model\Page\CustomLayout\CustomLayoutManager"
+                type="Coxorange\CustomLayout\Model\Cms\Page\CustomLayoutManager"/>
+</config>
